@@ -33,10 +33,10 @@ const Protoapp = () => {
                                     </div>
                                         <ul>
                                             <li>
-                                                <a href=''>Projectw App</a>
+                                                ProjectApp
                                             </li>
                                             <li>
-                                                <a href='#'>Home</a>
+                                                Home
                                             </li>
                                         </ul>  
                                 </nav>
@@ -66,7 +66,7 @@ const Protoapp = () => {
             {  /* Mid Body Section*/   }
 
             <Container>
-                <main className='mainBodyContainer'>
+                <main className='mainBodyContainer' id='mainBody'>
                     <article>
                         <Typography variant='h1' sx={{ fontWeight: '600' }}> Project App</Typography>
                         <Typography variant='subtitle2' sx={{ fontWeight: 'regular', fontSize: 'h6.fontSize',  letterSpacing: 3 }}>
