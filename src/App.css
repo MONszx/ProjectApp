@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+
+}
+nav{
+  display: flex;
+  margin-left: 200px;
+}
+
+ul{
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 8px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.Logo img{
+  height: 35px;
+  padding: 7px 0px 7px 7px;
+}
+
+.leaves {
+  position: absolute;
+  left: 450px;
+}
+
+.leaves img {
+  width: 100%;
+
+}
+
+/* Section Content CSS*/
+
+.content {
+  margin: 200px 0px 0px 200px;
+  width: 650px;
+}
+
+.decalsImage img{
+  position: absolute;
+  right: 540px;
+  top: 440px;
+}
+
+.storeImages {
+  display: flex;
+  justify-content: center;
+  border: 2px whitesmoke solid;
+  margin-top: 100px;
+}
+
+.playStore {
+  height: 160px;
+}
+
+.mainBodyContainer{
+  text-align: center;
+}
+
+.mainBodyContainer article {
+  padding: 100px;
+}
+
+.bodySection {
+  display: flex;
+}
+
+.imageSection img {
+  width: 500px;
+  padding: 0px 10px;
+}
+
+.secondDecals{
+  position: absolute;
+  left: 105rem;
+
+}
+
+/* Deep dive. Ready Section */
+
+.diveSection {
+  height: 600px;
+  background-color: rgba(7, 7, 243, 0.971);
+  color: white;
+}
+
+.diveContent{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.divestoreImages {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Last Call Action Section */
+
+.actionSection{
+  text-align: center;
+  padding: 90px;
+}
+.main_Wrapper {
+  display: flex;
+}
+
+.yellow_Container {
+  display: flex;
+  text-align: center;
+  background-color: rgb(255, 217, 0);
+  border-radius: 20px;
+  padding: 35px;
+  margin: 20px;
+}
+
+.green_Container {
+  display: flex;
+  text-align: center;
+  background-color: rgb(14, 199, 219);
+  border-radius: 20px;
+  padding: 35px;
+  margin: 20px;
+}
+
+.third_Decals {
+  margin-left: 460px;
+}
+
+ /* FOOTER SECTION */
+
+footer {
+  background-color: rgb(28, 26, 26);
+  padding: 50px 100px;
+}
+
+.footer_Section img {
+  height: 100%;
+  width: 50px;
+  margin: 0px 20px 5rem 0px;
+  float: left;
+}
+.content_Footer {
+  width: 40%;
+  margin-bottom: 30px;
+}
